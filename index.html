@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./js/libraries/galleryShow/styles/galleryShow.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Nueva Polonia</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/bx-menu-alt-right.svg" alt="menu hamburguesa" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="#home">Home</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#actividades">Actividades</a>
+            <a href="#aniversario">Aniversario</a>
+            <a href="#galeria">Galería</a>
+            <a href="#novedades">Novedades</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <div class="contenedor head text">
+            <h1 id="master-text" class="titulo">Asociación Civil Nueva Polonia</h1>
+            <p class="copy">Bienvenidos a nuestro sitio web</p>
+        </div>
+    </header>
+    <main>
+   <section class="home-contenedor" id="home">
+            <div class="contenedor">
+            <p>Conocé nuestras actividades de danza, idioma, eventos gastronómicos, ciudadanías y traducciones en Córdoba, Argentina.</p> 
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/sIoaCU1Qx_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </section>
+        <section class="galeria" id="galería">
+            <div class="contenedor">
+                <!--<h2 class="subtitulo">Galería</h2>-->
+                <article class="galeria-cont">
+                    <img src="https://pbs.twimg.com/media/FOpq-wyWYAIreqt?format=jpg&name=small" alt="horario danza">
+                    <img src="https://pbs.twimg.com/media/FPDblaZXsAYPk6L?format=jpg&name=medium" alt="horario idioma">
+                    <img src="https://pbs.twimg.com/media/FNNMIEUWYAACpWh?format=jpg&name=small" alt="10 años">
+                </article>     
+            </div>
+        </section>
+        <section class="contenedor" id="nosotros">
+            <h2 class="subtitulo">Sobre nosotros</h2>
+            <div class="contenedor-nosotros" id="transicion">
+                <img src="https://pbs.twimg.com/media/E4I1qv8UYAQ96cK?format=jpg&name=small" alt="foto de grupo">
+                <div class="checklist-nosotros">
+                    <div class="our">
+                        <h3 class="n-our"><span class="number">></span>Asociación Civil Nueva Polonia..</h3>
+                        <p>..(Personería Jurídica - Resolución Nº 063 “A”/12), se funda en el año 2012 en la ciudad de Córdoba  en el centro de Argentina, formalizando el trabajo que ya venía realizando un grupo de personas desde el año 2009. Es de carácter voluntario y se encuentra abierto a todas las personas sin distinción de origen, etnia, edad, género o religión. Tiene como misión principal, difundir la cultura polaca en Argentina y la cultura argentina en Polonia, como así también en el resto del mundo. </p>
+                    </div>
+                    <div class="our">
+                        <h3 class="n-our"><span class="number">></span> Nueva Polonia..</h3>
+                        <p>..cuenta con una importante trayectoria como referente de transmisión de la cultura que representa. Cuenta actualmente con el dictado del Curso Virtual de Idioma Polaco y su Grupo de Canto y Danzas Nowa Polonia ha realizado sus presentaciones en diferentes eventos culturales y gastronómicos en localidades de la República Argentina como en el exterior del país, acercando al público el colorido del folklore como la diversidad de los sabores polacos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section id="nuestras-actividades">
+            <article id="actividades">
+            <div class="container">
+            <h2 class="subtitulo">Actividades y Servicios</h2>
+            <div class="actividades">
+            <div class="carta">
+            <h3>Danza</h3>
+            <p>El Grupo de Canto y Danzas Nowa Polonia de la Asociación Civil Nueva Polonia nació el 22 de agosto de 2009 en la ciudad de Córdoba, en el centro de Argentina.</p>
+            <button value="0"  class="button-info">+ Info</button>
+            </div>
+            <div class="carta">
+            <h3>Idioma</h3>
+            <p>Curso Virtual de Idioma Polaco, se dicta por primera vez en formato digital. Este curso está dirigido a personas mayores de 16 años.</p>
+            <button value="1"  class="button-info">+ Info</button>
+            </div>
+            <div class="carta">
+            <h3>Traducciones</h3>
+            <p>Si tenés un antepasado nacido en Polonia, podés obtener la Ciudadanía Polaca con la cual podrás acceder luego al Pasaporte Polaco.</p>
+            <button value="2"  class="button-info">+ Info</button>
+            </div>
+            </div>
+            </div>
+            </article>
+        </section>
+        <section class="aniversary" id="aniversario" >
+            <h3>10 Años Zpit Nowa Polonia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ratione, delectus dolorum consequatur.</p>
+            <button value="3" class="button-info" >VER MAS</button>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galería</h2>
+                <ul class="gallery__menu">
+                    <li class="gallery-menu__item gallery-menu__item--selected">show 10 Años</li>
+                    <li class="gallery-menu__item">eventos</li>
+                    <li class="gallery-menu__item">sesión folk urbano</li>
+                </ul>
+                <div class="contenedor-galeria" id="gallery">
+                    <!-- Se agregarán imágenes con javascript -->
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="assets/bx-x.svg" alt="cruz" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </section>
+        <section class="novedades-contenedor" id="novedades">
+                <h2 class="subtitulo">Novedades</h2>
+                <div class="contenedor">    
+                    <img src="https://pbs.twimg.com/media/FN8MsDIXMAIaruC?format=jpg&name=large" alt="ilustracion">
+                    <p>🍿¡El Nowa en una película! Se estrena “Todas las pistas fueron falsas” en el🍿
+                        📽️
+                        @cineclubmuni
+                        #Córdoba #Argentina #Polska #Polonia    
+                        @PLenArgentina
+                        @WspolnotaPolska
+                        @LaVozdePolonia
+                        @RRIIMuniCba
+                        @PolskiSenat
+                        @prezydentpl
+                        @Premier
+                        @MartinLlaryora
+                        @PasseriniOk
+                        @Infocolectivid
+                        </p>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <img src="media/logo.jpeg" width="190" height="90" alt="logo">
+                <p>Sitio por Juan Pablo Andrujovich</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/AsociacionNuevaPolonia" target="_blank" class="social-media-icon">
+                    <i class= 'bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.facebook.com/nowa.polonia" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="https://twitter.com/NowaPolonia" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/nowapolonia/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>  
+            </div>
+        </div>
+        <div class="line"></div>
+        <section class="contact">
+            <div class="contenedor">
+                <form action="" class="form" id="form">
+                    <input class="input" type="text" name="" id="" placeholder="Nombre" name="name" required>
+                    <input class="input" type="email" name="" id="" placeholder="Email" name="email" required>
+                    <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje" name="mesagge" required></textarea>
+                    <input class="input" type="submit" id="button" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/libraries/galleryShow/galleryShow.js" type="module"></script> 
+    <script src="./js/menu.js" type="module"></script>
+    <!--<script src="lightbox.js" type="module"></script>--> 
+    <script src="./js/services.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/hero.js"></script>
+</body>
+</html>
